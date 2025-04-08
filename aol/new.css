@@ -1,0 +1,135 @@
+/* Global */
+BODY {margin:0px; padding:0px; background: #fff url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_tl_bg.jpg) repeat-x; font-family:Arial,sans-serif; font-size:11px;text-align:center;}
+NOSCRIPT {text-align:center; color:#fff; font-size:1.2em; margin-top:5px;}
+P {margin:0px;}
+
+.hide {position:absolute; top:0px; left:0px; z-index:-10;}
+.signinlink {float:right; margin:30px 10px 0px 0px;color:#D4E4F4;font-weight:bold;text-decoration:none;font-size:11px;font-family:Arial,sans-serif;}
+
+#header, #footer {margin-left:auto;margin-right:auto;width:732px;text-align:left;}
+#content{margin-left:auto;margin-right:auto;width:732px;text-align:left;background-color:#ffffff;}
+#header IMG.logo {float:left; margin-top:16px; z-index:1;}
+#header IMG.signin {float:right; margin:30px 10px 0px 0px; z-index:1;}
+#header BR {clear:left;}
+#footer {position:absolute: bottom:0px; margin-top:20px; text-align:center; line-height:1.4em; color:#8F8F8F;}
+#footer A {color:#8F8F8F; text-decoration:none;}
+#footer A:active, #footer A:hover {color:#666666; text-decoration:underline;}
+#leftContent {float:left; width:535px;}
+#rightContent {float:right; width:197px;}
+#clear {clear:all;}
+
+#AdHelpBox {width:176px; height:235px; margin-left:13px; background:#F5E093 url('https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/promobox.jpg') no-repeat; z-index:2;}
+#AdHelpBox IFRAME {background-color: transparent;}
+#AdHelpBox #Help {margin:4px 1px 0px 6px; color:#9E5926;}
+#AdHelpBox .HelpMenu {margin: 5px 0px;}
+#AdHelpBox .HelpMenu SELECT {background-color:#F5E093; height:19px; width:125px; color:#9E5926;font-size:13px;}
+#AdHelpBox P {margin-top:3px;}
+.ad {width:176px; margin-left:13px;}
+.ad IFRAME {background-color: transparent;}
+.hidden_track{font-size:1px;height:0px;width:0px;overflow:hidden;}
+.kw_color{color:#cd0000;}
+
+/* Main */
+#running_super {position:absolute; top:0px; left:50%; margin-left:-366px; width:732px; z-index:5;}
+.mainRight {background:#fff url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_mn_co.gif) top right no-repeat; padding-top:5px;}
+
+#SignonBox {height:191px; margin:0px 0px 0px 13px; padding:8px; background:url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_mn_log_bg.jpg) no-repeat;}
+#SignonBox P {color:#123D60;}
+#SignonBox FORM {margin:13px 0px 0px 5px; width:150px; height:100px;}
+#SignonBox FORM LABEL {color:#3E7DAE; margin-top:2px;}
+#SignonBox FORM INPUT.text {width:140px; margin-bottom:3px;font-size:13px;}
+#SignonBox .upgrade {position:relative; top:10px; padding-bottom:10px;}
+#SignonBox UL {margin-top:0px;margin-right:1px;margin-bottom:0px;list-style-image:url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_bl.gif);}
+#SignonBox LI {margin-left:-25px;text-decoration:underline;}
+#SignonBox A,#SignonBox A:active,#SignonBox A:hover {text-decoration:underline; color:#123D60;font-weight:bold;}
+
+#bottomPromos {width:535px; background-color:#123D60; margin:0px; padding:0px; background:url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_mn_pr_tl_bg.gif) repeat-x;}
+#bottomPromos SPAN {height:10px; display:block;width:100%;}
+#bottomPromos .promoWrap {padding-left:13px; height:169px; overflow:hidden;}
+#bottomPromos .promo {float:left; width:174px;}
+.promo H2 {margin-bottom:5px; font-size:13px; color:#fff; font-weight:bold;}
+.promo P {line-height:1.2em; color:#A4EFFF; width:150px;}
+.promo UL {margin-top:8px; margin-bottom:0px; list-style-image:url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_bl.gif);}
+.promo LI {margin-left:-20px;}
+.promo A {text-decoration:none; color:#FFFFFF;}
+.promo A:active, .promo A:hover {text-decoration:underline;color:#A4EFFF;}
+
+
+/* Product Pages */
+.productLeft {background:#fff url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_lft_co.gif) top left no-repeat; padding-top:15px;}
+.productRight {background:#fff url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_right_grad.gif) repeat-y; padding-bottom:10px;}
+.rightCurve {background: url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_mn_co.gif) top right no-repeat; height:8px;}
+
+#bigPromo {width:505px; height:190px; margin: 0px 0px 15px 15px; overflow:hidden;}
+
+.productLeft #lowerContent {clear:all; width:500px; margin:15px 0px 10px 15px;}
+#lowerContent UL {margin-top:0px; margin-bottom:5px; list-style-image:url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_bl.gif);}
+#lowerContent LI {margin-left:-20px;}
+#lowerContent A {text-decoration:none; color:#2C4D6F;}
+#lowerContent A:active, #lowerContent A:hover {text-decoration:underline; color:#666;}
+#lowerContent .left {float:left; width:165px; color:#8F8F8F;}
+#lowerContent .left .screenshot {width:152px; background: url('https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_152x114_brdr.gif') no-repeat; padding:6px;}
+#lowerContent .left P {margin:0px;}
+#lowerContent .left IMG {margin-bottom:7px;}
+#lowerContent .right {float:right; width:335px; color:#5478A0;}
+#lowerContent .right .subpromo {line-height:18px; font-size:13px; font-weight:bold; color:#9D1112;}
+#lowerContent .right .smalltext {color:#8F8F8F;}
+#lowerContent .right .button {margin:20px 0px;}
+#lowerContent .right H2 {margin:0px;}
+#lowerContent .right DL {margin-top:-5px;}
+#lowerContent .right DT {padding-top:10px;font-size:12px;font-weight:bold; color:#2C4D6F;}   /*HEADLINE bigger size for centercolumn product pages*/
+#lowerContent .right DD {line-height:15px;font-size:11px;font-weight:normal;color:#5478A0;margin-left:0px;}   /*HEADLINE for centercolumn product pages*/
+#lowerContent .right LI {margin-top:10px;}
+
+.relatedFeatures {width:176px; margin:10px 0px 10px 13px; background: #6C90B2 url('https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_blue_grad.gif') repeat-x; color:#A4EFFF;}
+.relatedFeatures .top {height:6px; background: url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_blue_grad_top.gif) top no-repeat;}
+.relatedFeatures .bottom {height:6px; background: url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_blue_grad_bottom.gif) bottom no-repeat;}
+.relatedFeatures A {text-decoration:none; color:#A4EFFF;}
+.relatedFeatures A:active, .relatedFeatures A:hover {text-decoration:underline; color:#fff;}
+.relatedFeatures UL {margin-top:5px; margin-bottom:0px; list-style-image:url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_bl.gif);}
+.relatedFeatures LI {margin-left:-15px;}
+.relatedFeatures IMG {margin-top:3px; margin-left:9px;}
+
+/* NEW FEATURE */
+IMG{border:0px;}
+
+.leftCorner {float:left; width:7px; height:8px; background:#fff url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_lft_co.gif) top right no-repeat;}
+.rightCorner {float:right; width:7px; height:8px; background:#fff url(https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_mn_co.gif) top right no-repeat;}
+#bottomPromosF {width:535px;float:left; background-color:#123D60; margin:0px; padding:0px; background:url(/web/20040702185921im_/http://cdn.aol.com/gr/promo_slice.gif) repeat-x;}
+#bottomPromosF .imgHead{margin:10px 0px 10px 0px;}
+#bottomPromosF .promo {float:left; width:168px;margin-left:5px;}
+#bottomPromosF .leftcor{height:235px; width:7px;background-image:url('/web/20040702185921im_/http://cdn.aol.com/gr/promo_left.gif'); background-repeat:no-repeat;float:left;}
+#bottomPromosF .rightcor{height:235px; width:7px;background-image:url('/web/20040702185921im_/http://cdn.aol.com/gr/promo_right.gif'); background-repeat:no-repeat;float:right;}
+#bottomRow {width:732px;height:235px;margin-top:10px;}
+#Ad{background-color:#F5E093;}
+
+/* DOWNLOADS HELP PAGE */
+.l_gutter{margin-top:20px;margin-left:17px;}
+.mainbody{margin-top:20px;margin-left:17px;width:500px;font-size:11px;font-family:ARIAL;font-weight:normal;text-decoration:none;line-height:16px;color:#5478A0;}
+HR {height:1px;color:#E5E7E8;margin-bottom:10px;margin-top:0px;}
+.leftbox {float:left;width:56px;}
+.rightbox {float:right;padding-top:56px;padding-right:10px;}
+.midbox {width:306px; margin-left:62px;}
+.midbox UL {list-style-image:url('https://web.archive.org/web/20040702185921im_/http://cdn.aol.com/gr/aol_gl_bl_small.gif');position:relative; left:-20px; margin-top:6px;margin-bottom:0px;line-height:16px;}
+.p1margin {margin:10px 10px 0px 10px;}
+.ad1margin {margin-top:10px;}
+/*
+     FILE ARCHIVED ON 18:59:21 Jul 02, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:11:49 Apr 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.52
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.015
+  esindex: 0.011
+  cdx.remote: 52.536
+  LoadShardBlock: 352.762 (3)
+  PetaboxLoader3.datanode: 273.576 (4)
+  PetaboxLoader3.resolve: 430.618 (2)
+  load_resource: 380.671
+*/
